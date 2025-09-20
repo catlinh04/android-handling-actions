@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="26dp"
+    android:layout_marginLeft="26dp"
+    android:layout_marginRight="26dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="True Random Number Generator"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="18dp"
+        android:background="#DDE0FF"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Min"
+        android:inputType="number|numberSigned"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:background="#EEEEEE"/>
+
+    <EditText
+        android:id="@+id/etMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Max"
+        android:inputType="number|numberSigned"
+        android:layout_marginTop="8dp"
+        android:padding="12dp"
+        android:background="#EEEEEE"/>
+
+    <Button
+        android:id="@+id/btnGen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result:"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="#DDE0FF"
+        android:paddingTop="6dp"/>
+</LinearLayout>
